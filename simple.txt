@@ -1,0 +1,4 @@
+job count_doodads 119 11 0 1
+job stamp_whatsits 264 5 22 1
+worker Android_Joe
+worker Android_Mary
