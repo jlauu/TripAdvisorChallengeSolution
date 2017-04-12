@@ -74,10 +74,10 @@ def schedule(workers, jobs):
       w_begin, w = heappop(whq)
       if w_begin < j_begin:
         a = Assignment(j_begin,w,j)
-	w.can_begin = j_begin + j.task_time
+        w.can_begin = j_begin + j.task_time
       else:
         a = Assignment(w_begin,w,j)
-	w.can_begin += j.task_time
+        w.can_begin += j.task_time
       j.tasks -= 1
       heappush(jhq, (j.can_begin, j))
       heappush(whq, (w.can_begin, w))
