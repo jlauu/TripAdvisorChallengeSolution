@@ -10,7 +10,7 @@ Output:
 | START_TIME WORKER JOB_NAME
 
 main.py - the main application and final submission.
-second_try.py - an attempt to account for first-order effects. not submitted.
+second_try.py - an attempt to account for second-order effects. not submitted.
 job_generator.py - provided to us by the competition. generates random test input
 *.txt - various input files
 ```
